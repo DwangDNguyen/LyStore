@@ -1159,8 +1159,8 @@ main {
     flex: 1;
   }
   .container_inner-content-comment-rate-container-star img {
-    margin-right: 5px;
-    width: 15%;
+    width: 18%;
+    margin-right: 0;
   }
   .res {
     padding: 10px 0;
@@ -1210,7 +1210,7 @@ main {
     padding-right: 10px;
   }
   .more-comment-btn {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   /* footer */
