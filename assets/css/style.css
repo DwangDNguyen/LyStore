@@ -157,7 +157,7 @@ main {
 }
 
 .btn-buy-now {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 600;
   background-color: var(--primary-color);
   color: #ffffff;
@@ -176,7 +176,7 @@ main {
 .container_inner-products-title {
   text-align: center;
   padding: 60px 0;
-  font-size: 90px;
+  font-size: 9rem;
   font-weight: 600;
 }
 
@@ -208,7 +208,7 @@ main {
 }
 
 .container_inner-products-content-item-title-name span {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 600;
 }
 
@@ -226,7 +226,7 @@ main {
   top: 45%;
   left: 66%;
   transform: translate(-50%, -50%);
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 600;
   color: #ffffff;
 }
@@ -237,7 +237,7 @@ main {
 
 .container_inner-products-content-item-price-old span {
   position: relative;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 400;
 }
 
@@ -251,7 +251,7 @@ main {
 }
 
 .container_inner-products-content-item-price-new span {
-  font-size: 60px;
+  font-size: 6rem;
   font-weight: 600;
   color: var(--primary-color);
 }
@@ -271,7 +271,7 @@ main {
 }
 
 .container_inner-history-bought-rate span {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 
@@ -286,11 +286,11 @@ main {
   flex: 1;
 }
 .container_inner-history-bought-amount span {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
 }
 .container_inner-history-bought-amount-products {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 600;
   color: #ff2549;
   padding-top: 25px;
@@ -304,7 +304,7 @@ main {
 }
 
 .container_inner-history-person-title {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
   margin-left: 50px;
 }
@@ -316,14 +316,14 @@ main {
   border: transparent;
   width: 100%;
   padding: 50px 0;
-  font-size: 65px;
+  font-size: 6.5rem;
   font-weight: 600;
   letter-spacing: 2px;
   border-radius: 10px;
 }
 
 .container_inner-remaining-products {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
   text-align: center;
   margin-top: 35px;
@@ -331,7 +331,7 @@ main {
 }
 
 .container_inner-remaining-products span {
-  font-size: 50px;
+  font-size: 5rem;
   color: var(--primary-color);
 }
 
@@ -361,7 +361,7 @@ main {
   text-align: center;
 }
 .container_inner-evaluate-frames span {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
   padding-top: 50px;
   text-align: center;
@@ -376,7 +376,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .container_inner-person-see-title {
@@ -399,7 +399,7 @@ main {
   padding-bottom: 65px;
 }
 .container_inner-detail-product-title {
-  font-size: 50px;
+  font-size: 5rem;
   font-weight: 600;
   padding-bottom: 20px;
 }
@@ -419,7 +419,7 @@ main {
 
 .container_inner-detail-product-desc-text {
   margin-left: 25px;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 300;
   flex: 1;
 }
@@ -486,7 +486,7 @@ main {
 }
 
 .container_inner-timer-board-notification {
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 600;
   color: #ffffff;
   padding: 65px 50px 0px;
@@ -510,19 +510,20 @@ main {
   flex-direction: column;
   align-items: center;
   flex: 1;
+  width: 25%;
 }
 
 .container_inner-timer-board-time-unit-num {
   border: 4px solid #ffffff;
   border-radius: 10px;
   padding: 40px 50px;
-  font-size: 90px;
+  font-size: 9rem;
   font-weight: 600;
   color: #ffffff;
 }
 
 .container_inner-timer-board-time-unit-date {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 600;
   color: #ffffff;
   padding-top: 15px;
@@ -543,13 +544,13 @@ main {
 }
 
 .container_inner-option-buy-title-buy-text {
-  font-size: 65px;
+  font-size: 6.5rem;
   font-weight: 600;
   margin-bottom: 45px;
 }
 
 .container_inner-option-buy-title-line {
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 /* Buy-options-info */
@@ -567,7 +568,7 @@ main {
   border: 3px solid rgb(212, 212, 212);
   border-radius: 10px;
   box-shadow: 5px 8.66px 20px 0px rgba(0, 0, 0, 0.1);
-  font-size: 40px;
+  font-size: 4rem;
   font-family: "IBM Plex Sans", sans-serif;
   background-color: #ffffff;
   display: flex;
@@ -575,7 +576,7 @@ main {
 }
 
 .container_inner-option-buy-info-input::placeholder {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 600;
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--text-color);
@@ -601,7 +602,7 @@ main {
 
 .container_inner-option-buy-info-code-title {
   padding-bottom: 55px;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -610,7 +611,7 @@ main {
 }
 
 .product-code-item {
-  font-size: 40px;
+  font-size: 4rem;
   display: block;
   position: relative;
   padding-left: 50px;
@@ -670,7 +671,7 @@ main {
 }
 
 .container_inner-content-comment-rate-title {
-  font-size: 65px;
+  font-size: 6.5rem;
   font-weight: 600;
 }
 
@@ -681,7 +682,7 @@ main {
 }
 
 .container_inner-content-comment-rate-container span {
-  font-size: 40px;
+  font-size: 4rem;
 }
 
 .container_inner-content-comment-rate-container-star img {
@@ -710,7 +711,7 @@ main {
 }
 
 .container_inner-comment-user-info-name {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 600;
 }
 
@@ -746,7 +747,7 @@ main {
   border-radius: 4px;
   background-color: rgb(235, 235, 235);
   padding: 40px 50px;
-  font-size: 35px;
+  font-size: 3.5rem;
 }
 
 .container_inner-content-comment-user-comment-img {
@@ -761,7 +762,7 @@ main {
   background-color: rgb(241, 241, 241);
   color: var(--text-color);
   font-weight: 400;
-  font-size: 40px;
+  font-size: 4rem;
   margin-bottom: 85px;
 }
 .more-comment-btn span {
@@ -781,14 +782,14 @@ main {
 }
 
 .footer_container-hotline {
-  font-size: 45px;
+  font-size: 4.5rem;
   font-weight: 600;
   color: #ffffff;
   padding: 75px 0px 24px 0px;
 }
 
 .footer_container-address {
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 300;
   color: #ffffff;
   padding: 16px 0;
@@ -819,7 +820,7 @@ main {
 }
 .footer-copyright {
   width: 100%;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 300;
   color: #cdcdcd;
   text-align: center;
@@ -871,7 +872,7 @@ main {
     padding-top: 100px;
   }
   .container_inner-advertisement-bgr {
-    height: auto;
+    height: 100%;
   }
 
   .container_inner-advertisement-saleOff {
@@ -882,7 +883,7 @@ main {
     padding-top: 10px;
   }
   .percent {
-    font-size: 20px;
+    font-size: 2rem;
     top: 50%;
   }
   .container_inner-advertisement-title {
@@ -890,17 +891,17 @@ main {
     padding-top: 30px;
   }
   .container_inner-advertisement-note {
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-top: 30px;
   }
   .btn-buy-now {
-    font-size: 30px;
+    font-size: 3rem;
     padding: 20px 50px;
     margin-top: 30px;
     margin-bottom: 75px;
   }
   .container_inner-products-title {
-    font-size: 35px;
+    font-size: 3.5rem;
     padding: 30px 0;
   }
 
@@ -915,7 +916,7 @@ main {
   .discount-number,
   .container_inner-products-content-item-price-new span,
   .container_inner-products-content-item-title-name span {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   .container_inner-products-content-item-price-old {
@@ -923,7 +924,7 @@ main {
   }
 
   .container_inner-products-content-item-price-old span {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
   .container_inner-history-bought-container {
     padding: 40px 0;
@@ -932,7 +933,7 @@ main {
     width: 100%;
   }
   .container_inner-history-bought-rate span {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
   .container_inner-history-bought-rate-star img {
     padding-right: 5px;
@@ -944,10 +945,10 @@ main {
     width: 100%;
   }
   .container_inner-history-bought-amount span {
-    font-size: 20px;
+    font-size: 1.8rem;
   }
   .container_inner-history-bought-amount-products {
-    font-size: 25px;
+    font-size: 2rem;
     padding-top: 5px;
   }
   .container_inner-history-person-container {
@@ -960,29 +961,29 @@ main {
     flex: 1;
   }
   .container_inner-history-person-title {
-    font-size: 20px;
+    font-size: 2rem;
     width: 100%;
     flex: 2;
     margin-left: 10px;
   }
 
   .container_inner-main-btn-buy-now {
-    font-size: 25px;
-    padding: 25px 0;
+    font-size: 2.5rem;
+    padding: 25px;
   }
   .container_inner-remaining-products {
-    font-size: 20px;
+    font-size: 2rem;
     margin-top: 25px;
     padding-bottom: 40px;
   }
   .container_inner-remaining-products span {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .container_inner-evaluate {
     margin-top: 0;
   }
   .container_inner-evaluate-frames {
-    padding: 15px;
+    padding: 15px 5px;
     margin-right: 5px;
     max-height: 120px;
   }
@@ -993,19 +994,17 @@ main {
     width: 60%;
   }
   .container_inner-evaluate-frames span {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding-top: 15px;
   }
   .container_inner-frames {
     text-align: center;
+    padding: 10px;
   }
   .container_inner-frames img {
     width: 50%;
   }
 
-  .container_inner-frames {
-    padding: 10px 0;
-  }
   .container_inner-frames-icon {
     text-align: center;
     padding: 0 10px;
@@ -1016,16 +1015,16 @@ main {
   }
 
   .container_inner-person-see-title {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding-right: 20px;
     margin-left: 0;
   }
   .last {
-    padding: 24px 0;
+    padding: 24px 5px;
     margin-bottom: 60px;
   }
   .container_inner-frames-checked {
-    font-size: 20px;
+    font-size: 1.5rem;
   }
 
   .container_inner-detail-product {
@@ -1033,7 +1032,7 @@ main {
   }
 
   .container_inner-detail-product-title {
-    font-size: 25px;
+    font-size: 2.5rem;
   }
 
   .container_inner-detail-product-desc {
@@ -1046,7 +1045,7 @@ main {
     margin-top: 5px;
   }
   .container_inner-detail-product-desc-text {
-    font-size: 15px;
+    font-size: 1.5rem;
     margin-left: 15px;
   }
   .container_inner-detail-product-slider-btn {
@@ -1058,7 +1057,7 @@ main {
     top: 40%;
   }
   .container_inner-timer-board-notification {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 30px;
   }
   .container_inner-timer-board-notification-underline {
@@ -1069,21 +1068,21 @@ main {
   }
 
   .container_inner-timer-board-time-unit-num {
-    font-size: 30px;
-    padding: 5px 10px;
+    font-size: 3rem;
+    padding: 3px 6px;
   }
 
   .container_inner-timer-board-time-unit-date {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding-top: 5px;
   }
 
   .container_inner-option-buy-title-buy-text {
-    font-size: 35px;
+    font-size: 3.5rem;
     margin-bottom: 30px;
   }
   .container_inner-option-buy-title-line {
-    font-size: 20px;
+    font-size: 2rem;
     width: 100%;
   }
 
@@ -1098,17 +1097,17 @@ main {
   .container_inner-option-buy-info-input {
     width: 100%;
     padding: 15px;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: "IBM Plex Sans", sans-serif;
   }
   .container_inner-option-buy-info-input::placeholder {
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: "IBM Plex Sans", sans-serif;
     color: var(--text-color);
   }
   .container_inner-option-buy-info-code-title {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding-bottom: 0;
     margin-bottom: 20px;
   }
@@ -1117,7 +1116,7 @@ main {
     padding: 15px;
   }
   .product-code-item {
-    font-size: 12px;
+    font-size: 1.2rem;
     padding: 8px 25px;
   }
   .checkmark {
@@ -1142,7 +1141,7 @@ main {
   }
 
   .container_inner-content-comment-rate-title {
-    font-size: 30px;
+    font-size: 3rem;
   }
   .container_inner-content-comment-rate-container {
     width: 100%;
@@ -1168,7 +1167,7 @@ main {
     margin-left: 10px;
   }
   .res span {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .container_inner-content-comment-user-avatar {
@@ -1180,7 +1179,7 @@ main {
   }
 
   .container_inner-comment-user-info-name {
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 
   .container_inner-comment-user-info-rate img {
@@ -1194,7 +1193,7 @@ main {
     margin-top: 10px;
   }
   .container_inner-content-comment-user-comment-text {
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 10px 20px;
   }
 
@@ -1211,7 +1210,7 @@ main {
     padding-right: 10px;
   }
   .more-comment-btn {
-    font-size: 20px;
+    font-size: 2rem;
   }
 
   /* footer */
@@ -1225,12 +1224,12 @@ main {
     width: 50%;
   }
   .footer_container-hotline {
-    font-size: 20px;
+    font-size: 1.8rem;
     padding-top: 40px;
     padding-bottom: 20px;
   }
   .footer_container-address {
-    font-size: 13px;
+    font-size: 1.3rem;
     padding: 5px 0;
   }
   .footer_container-link {
@@ -1244,7 +1243,7 @@ main {
     height: 35px;
   }
   .footer-copyright {
-    font-size: 25px;
+    font-size: 2.5rem;
     padding: 20px 0;
   }
 }
