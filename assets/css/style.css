@@ -872,10 +872,10 @@ main {
   }
   /* container */
   .container_inner-advertisement {
-    padding: 100px 16px 0 16px;
+    padding: 75px 16px 25px 16px;
   }
   .container_inner-advertisement-bgr {
-    height: 100%;
+    height: auto;
   }
 
   .container_inner-advertisement-saleOff {
@@ -891,18 +891,18 @@ main {
     top: 55%;
   }
   .container_inner-advertisement-title {
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     padding-top: 0px;
   }
   .container_inner-advertisement-note {
-    font-size: 1.7rem;
-    margin-top: 30px;
+    font-size: 1.5rem;
+    margin-top: 20px;
   }
   .btn-buy-now {
-    font-size: 3rem;
-    padding: 20px 50px;
+    font-size: 2rem;
+    padding: 20px 40px;
     margin-top: 30px;
-    margin-bottom: 75px;
+    margin-bottom: 30px;
     border-radius: 5px;
   }
 
@@ -911,7 +911,7 @@ main {
   }
 
   .container_inner-products-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     padding: 20px 0;
   }
 
