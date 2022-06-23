@@ -219,7 +219,7 @@ main {
 }
 
 .container_inner-products-content-item-title-discount img {
-  width: 100%;
+  width: 60px;
 }
 
 .discount-number {
@@ -363,7 +363,7 @@ main {
 }
 .container_inner-evaluate-frames span {
   font-size: 3.5rem;
-  font-weight: 600;
+  font-weight: 700;
   padding-top: 50px;
   text-align: center;
 }
@@ -875,7 +875,6 @@ main {
     padding: 75px 16px 25px 16px;
   }
   .container_inner-advertisement-bgr {
-    height: auto;
   }
 
   .container_inner-advertisement-saleOff {
@@ -924,11 +923,12 @@ main {
     padding-bottom: 0;
   }
   .container_inner-products-content-item-title-discount {
-    padding-left: 50px;
+    flex: none;
   }
   .discount-number {
     font-size: 1.4rem;
-    left: 80%;
+    left: 70%;
+    top: 40%;
   }
   .container_inner-products-content-item-price-new span,
   .container_inner-products-content-item-title-name span {
@@ -1006,7 +1006,8 @@ main {
   .container_inner-evaluate-frames {
     padding: 15px 5px;
     margin-right: 5px;
-    max-height: 120px;
+    width: 33.33333333%;
+    height: 120px;
     border: 2px solid var(--primary-color);
     border-radius: 5px;
   }
@@ -1017,7 +1018,7 @@ main {
   }
 
   .container_inner-evaluate-frames span {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-top: 15px;
   }
   .container_inner-frames {
@@ -1310,5 +1311,11 @@ main {
   .footer-copyright {
     font-size: 1.2rem;
     padding: 10px 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .container_inner-advertisement {
+    padding: 40px 16px 25px 16px;
   }
 }
