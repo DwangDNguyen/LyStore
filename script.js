@@ -1,8 +1,8 @@
 var metaViewport = document.getElementById("viewport");
 window.onload = function () {
-  // if (screen.width > 420) {
-  //   metaViewport.setAttribute("content", "user-scalable=no,width=420");
-  // }
+  if (screen.width > 420) {
+    metaViewport.setAttribute("content", "user-scalable=no,width=420");
+  }
   if (screen.width < 420) {
     metaViewport.setAttribute("content", "user-scalable=no,width=420");
   }
