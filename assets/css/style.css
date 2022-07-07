@@ -938,7 +938,7 @@ p {
 }
 
 /* responsive */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container_inner-advertisement-title {
     font-size: 30px;
   }
@@ -975,4 +975,4 @@ p {
   .footer_container-address {
     font-size: 11px;
   }
-}
+} */
