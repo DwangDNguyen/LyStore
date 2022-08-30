@@ -141,3 +141,26 @@ function toggleRateContainer(icon) {
     toggleRateControll = 1;
   }
 }
+
+// filter
+const filterBtn = document.querySelector(".container_inner-content-filter");
+const filterOptions = document.querySelectorAll(".filter-container-option");
+
+filterBtn.onclick = (e) => {
+  document.querySelector(".filter-container").style.display = "block";
+  e.stopPropagation();
+};
+window.onclick = () => {
+  document.querySelector(".filter-container").style.display = "none";
+};
+
+document.querySelector(".filter-container").onclick = (e) => {
+  e.stopPropagation();
+};
+
+filterOptions.forEach((option, index) => {
+  option.onclick = function () {
+    document.querySelector(".check").classList.remove("check");
+    this.classList.add("check");
+  };
+});

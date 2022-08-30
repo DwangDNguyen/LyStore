@@ -185,7 +185,7 @@ p {
 
 .container_intro-advertisement {
   background-color: rgba(255, 248, 243, 1);
-  padding: 0 10px 20px;
+  padding: 0 10px 0 10px;
 }
 
 .container_intro-advertisement-product-name {
@@ -279,6 +279,9 @@ p {
   height: 80px;
 }
 /* Products */
+.container_inner {
+  background-color: rgba(255, 248, 243, 1);
+}
 .container_inner-products-content .row {
   margin-left: -8px;
   margin-right: -8px;
@@ -293,7 +296,7 @@ p {
 }
 .container_inner-products-title {
   text-align: center;
-  padding: 20px 0;
+  padding: 20px;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -387,7 +390,7 @@ p {
 }
 .number-star-ave {
   font-size: 18px;
-  color: #ff0101;
+  color: var(--primary-color);
   font-weight: 700;
   text-decoration: underline;
 }
@@ -484,8 +487,11 @@ svg {
   width: 25px;
   height: 40px;
 }
+.flash svg {
+  fill: var(--primary-color);
+}
 .section h2 {
-  background-color: #ff0101;
+  background-color: var(--primary-color);
   color: #fff;
   font-size: 12px;
   padding: 5px 15px;
@@ -500,7 +506,7 @@ svg {
 .remain-products span {
   font-size: 16px;
   font-weight: bold;
-  color: #ff0101;
+  color: var(--primary-color);
 }
 .section-bar {
   position: relative;
@@ -515,7 +521,7 @@ svg {
   left: 0;
   width: 90%;
   height: 10px;
-  background-color: #ff0101;
+  background-color: var(--primary-color);
   border-radius: 70px;
 }
 .container_inner-content-status-viewer {
@@ -533,7 +539,7 @@ svg {
 }
 .container_inner-content-status-viewer span {
   font-size: 18px;
-  color: #ff0101;
+  color: var(--primary-color);
 }
 /* Button main */
 .btn-main {
@@ -543,7 +549,7 @@ svg {
   margin-top: 10px;
 }
 .container_inner-main-btn-buy-now {
-  background-color: #ff0101;
+  background-color: var(--primary-color);
   color: #ffffff;
   border: transparent;
   padding: 15px 90px;
@@ -583,6 +589,9 @@ svg {
 .container_inner-evaluate-frames-icon {
   width: 60px;
   height: 70px;
+}
+.container_inner-evaluate-frames-icon svg {
+  fill: var(--primary-color);
 }
 .container_inner-evaluate-frames h1 {
   font-size: 12px;
@@ -643,7 +652,7 @@ svg {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.6;
-  color: #ff0101;
+  color: var(--primary-color);
 }
 .container_inner-detail-product-desc {
   display: flex;
@@ -689,7 +698,7 @@ svg {
 .container_inner-timer-board-notification {
   font-size: 23px;
   font-weight: 700;
-  color: #ff0101;
+  color: var(--primary-color);
   text-align: center;
 }
 
@@ -751,7 +760,7 @@ svg {
   justify-content: space-between;
 }
 .container_inner-option-buy-info select {
-  padding-left: 5px;
+  padding-left: 3px;
 }
 .container_inner-option-buy-info-input::placeholder {
   font-size: 1.5rem;
@@ -781,7 +790,7 @@ svg {
   width: 100%;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #ff0101;
+  color: var(--primary-color);
   margin-top: 5px;
 }
 
@@ -853,12 +862,13 @@ textarea {
 .container_inner-main-btn-order-now {
   width: 100%;
   margin-top: 10px;
-  background-color: #ff0101;
+  background-color: var(--primary-color);
   color: #fff;
   border: none;
   padding: 10px 0;
   font-size: 20px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* rate */
@@ -925,11 +935,37 @@ textarea {
   position: absolute;
   top: 35px;
   right: 0;
-  width: 275px;
-  height: 275px;
+  width: 250px;
+  height: 250px;
   border: 1px solid transparent;
-  box-shadow: 5px 8.66px 20px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 6px 14px -4px rgb(0 0 0 / 14%);
+  border-radius: 4px;
+  background-color: #fff;
   z-index: 5;
+  transform-origin: calc(100% - 10%) top;
+  animation: growIn ease-in 0.2s;
+  will-change: opacity, transform;
+  display: none;
+}
+.filter-container h1 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px 20px 10px 20px;
+}
+.filter-container-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.filter-icon {
+  display: none;
+}
+.check .filter-icon {
+  display: block;
 }
 .container_inner-content-rate-container {
   position: absolute;
@@ -1208,5 +1244,16 @@ textarea {
   }
   to {
     display: block;
+  }
+}
+
+@keyframes growIn {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
 }
