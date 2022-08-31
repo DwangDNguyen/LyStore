@@ -21,22 +21,22 @@ slides.forEach((slide, index) => {
   slide.style.left = `${index * 100}%`;
 });
 
-let count = 0;
+// let count = 0;
 let currentIndex = 0;
-nexts.forEach((next) => {
-  next.onclick = function () {
-    currentIndex++;
-    carousel();
-    changeImg(currentIndex);
-  };
-});
-prevs.forEach((prev) => {
-  prev.onclick = function () {
-    currentIndex--;
-    carousel();
-    changeImg(currentIndex);
-  };
-});
+// nexts.forEach((next) => {
+//   next.onclick = function () {
+//     currentIndex++;
+//     carousel();
+//     changeImg(currentIndex);
+//   };
+// });
+// prevs.forEach((prev) => {
+//   prev.onclick = function () {
+//     currentIndex--;
+//     carousel();
+//     changeImg(currentIndex);
+//   };
+// });
 
 function changeImg(index) {
   document.querySelectorAll(".img-slide").forEach((item) => {
